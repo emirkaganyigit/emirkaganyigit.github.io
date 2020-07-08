@@ -1,0 +1,74 @@
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.column3{
+    width: 50%;
+    float: left;
+}
+
+.top-header {
+    height: 112px;
+    background-color: rgba(0,0,0,0.8);
+    position:fixed;
+    top: 0;
+    width: 100%; 
+}
+
+body{
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar li{
+    display: inline;
+    color : #ff9900;
+    margin-right: 30px;
+}
+
+.navbar {
+    margin-top: 55px;
+    font-size: 18px;
+    !float: right;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: orange;
+}
+
+.title {
+    background-color: #000;
+    margin: 0 auto;
+    padding-top: 200px;
+    color: #ff9900;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.title h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    
+}
+
+.title p{
+    !margin-bottom:30px;
+    padding-bottom: 30px;
+}
+
+#imgkodek{
+    text-align: center;
+    background-image: url(images/kodek_main.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 1500px;
+    overflow: hidden;
+    margin:0 auto;
+    padding-top: 200px;
+}
+
